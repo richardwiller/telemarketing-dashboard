@@ -4,7 +4,7 @@ import pandas            as pd
 import streamlit         as st
 import seaborn           as sns
 import altair as alt
-from pillow                 import Image
+from Pillow                 import Image
 from io                  import BytesIO
 
 # Set no tema do seaborn para melhorar o visual dos plots
