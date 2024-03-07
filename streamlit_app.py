@@ -4,7 +4,6 @@ import pandas            as pd
 import streamlit         as st
 import seaborn           as sns
 import altair as alt
-from Pillow                 import Image
 from io                  import BytesIO
 
 # Set no tema do seaborn para melhorar o visual dos plots
@@ -58,8 +57,7 @@ def main():
     st.markdown("---")
     
     # Apresenta a imagem na barra lateral da aplicação
-    image = Image.open("./img/artboard_123064.png")
-    st.sidebar.image(image)
+    st.sidebar.image("./img/artboard_123064.png")
 
     # Botão para carregar arquivo na aplicação
     st.sidebar.write("## Suba o arquivo")
