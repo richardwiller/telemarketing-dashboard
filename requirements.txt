@@ -3,6 +3,6 @@ numpy
 seaborn
 streamlit
 altair
-PIL
-xlswriter 
+pillow
+XlsxWriter 
 
